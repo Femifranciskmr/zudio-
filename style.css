@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.head ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    font-weight: 40px;
+    font-size: 20px;
+}
+.head li{
+    margin-right:20px ;
+   list-style-type: none;
+}
+/* banner section */
+
+.bannerimg{
+
+position: relative;
+
+}
+
+.bannerparas{
+    position: absolute;
+    top:40%;
+    left:50px
+
+}
+.bannerparas a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    margin-bottom: 20px;
+    
+}
+.bannerparas a:hover{
+color:grey ;
+}
+
+
+/* footer section */
+
+
+.footer{
+    background: black;
+    text-align: center;
+    padding: 30px;
+
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* zstories section */
+
+.row1{
+    display: flex;
+    justify-content: center;
+    
+}
+.row1 img{
+    padding: 30px;
+}
+.row2{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.row2 img{
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.compara{
+    text-align: center;
+    padding-top: 30px;
+}
+.compara h1{
+    font-size: 50px;
+}
+
+
+ .zstofooter{
+    padding: 30px;
+    background: black;
+
+ }
+ .zstofooter a{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+ }
+ .zstofooter p{
+    color: white;
+    margin-left: 100px
+ }
+ .zfooterp {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+
+
+ /* zudio section */
+
+ 
+ /* .zudiobannimg{
+    text-align: center;
+ } */
+
+ .zudiobannheading h1,p{
+    text-align: center;
+ }
+
+
+ .zudiobannimg img{
+    width: 400px;
+    height: 300px;
+ }
+
+ .zudiobannimg .row{
+display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+margin: 50px;
+ }
+
+
+
+ /* zudio near you */
+ .breadcrumb-item a{
+ text-decoration: none;
+ color: black;
+ }
+
+.findthesecinpu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .findthesecinpu .input-group{
+    width: 300px;
+    
+ }
+ .nearbtn{
+    background-color: black;
+ }
+ .nearbtn:hover{
+    background-color: white;
+    color: black;
+ }
+
